@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  
+  --color-sleek-bg: #FBFBFD;
+  --color-sleek-main: #1D1D1F;
+  --color-sleek-sub: #6E6E73;
+  --color-sleek-accent: #0066CC;
+  --color-sleek-border: #D2D2D7;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-sleek-bg text-sleek-main antialiased;
+  }
+}
